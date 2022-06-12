@@ -33,8 +33,6 @@ public class StartOnLongTouch : MonoBehaviour
     void Update()
     {
         if(cStart1.hasLongPressed && cStart2.hasLongPressed) {
-            Debug.Log("ASS");
-            
             startButton.SetActive(false);
             Choices.SetActive(false);
             pause.SetActive(true);
